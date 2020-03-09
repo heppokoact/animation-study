@@ -3,7 +3,7 @@ var notify = require("gulp-notify");
 var plumber = require("gulp-plumber");
 var sass = require("gulp-sass");
 var autoprefixer = require("gulp-autoprefixer");
-var uglify = require("gulp-uglify");
+var uglify = require("gulp-uglify-es").default;
 var browserSync = require("browser-sync");
 
 const paths = {
